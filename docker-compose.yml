@@ -1,0 +1,137 @@
+version: '3.8'
+
+services:
+  frontend:
+    build:
+      context: ./Front
+      dockerfile: Dockerfile
+    ports:
+      - "8080:80"
+    depends_on:
+      - web
+      - db
+      - pdf-api
+      - ollama
+    networks:
+      - ai-network
+  db:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    environment:
+      SA_PASSWORD: "Your_password123"
+      ACCEPT_EULA: "Y"
+    ports:
+      - "1433:1433"
+    volumes:
+      - sql_data:/var/opt/mssql
+    networks:
+      - ai-network
+
+
+  web:
+    build:
+      context: ./Docvision      
+      dockerfile: Docvision/Dockerfile
+    ports:
+      - "5000:80"
+    depends_on:
+      - db
+      - pdf-api
+      - ollama
+    networks:
+      - ai-network
+    restart: unless-stopped
+    environment:
+      # ASP.NET Core
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
+      - SKIP_ADMIN_CREATION=false  # Ajouter cette variable pour ignorer la création de l'admin
+
+      # DB Connexion
+      - ConnectionStrings__docsdb=Server=db;Database=DocvisionDb3;User=sa;Password=Your_password123;TrustServerCertificate=True;
+
+      # JWT config
+      - Jwt__Key=sz8eI70dHBrjrIo8j9nTW/rQy010vY0pAQ2wDKQZw/0=
+      - Jwt__Issuer=SecureApi
+      - Jwt__Audience=SecureApiUser
+      - Jwt__ExpireMinutes=60
+
+      # Email
+      - EmailSettings__SmtpServer=smtp.gmail.com
+      - EmailSettings__SmtpPort=587
+      - EmailSettings__EmailSender=useriphoneuseriphone263@gmail.com
+      - EmailSettings__Password=lgmapiqthnwfhswq
+
+      # Cloudinary
+      - Cloudinary__CloudName=dzkoqiz6w
+      - Cloudinary__ApiKey=232375459128386
+      - Cloudinary__ApiSecret=1UxaoFUzvUYgMJROqPARnIq9lL0
+
+
+
+  # Service PDF API
+  pdf-api:
+    build: 
+      context: ./pdf_api
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    volumes:
+      - pdf_api_data:/app/data
+    environment:
+      - OLLAMA_HOST=ollama
+      - OLLAMA_PORT=11434
+      - CUDA_VISIBLE_DEVICES=0
+      - PYTHONUNBUFFERED=1
+      - WORKERS=5
+    deploy:
+      resources:
+        limits:
+          memory: 4G
+        reservations:
+          memory: 2G
+    depends_on:
+      - ollama
+    restart: unless-stopped
+    networks:
+      - ai-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://pdf-api:8000/health && nvidia-smi"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 30s
+
+  # Service Ollama
+  ollama:
+    build:
+      context: ./ollama
+      dockerfile: Dockerfile
+    volumes:
+      - ollama_data:/root/.ollama
+    ports:
+      - "11434:11434"
+    environment:
+      - OLLAMA_HOST=0.0.0.0
+      - OLLAMA_ORIGINS=*
+      #Paramètres de performance
+      - OLLAMA_NUM_THREADS=4
+      - OLLAMA_NUM_GPU=1
+      - OLLAMA_GPU_LAYERS=35
+    deploy:
+      resources:
+        limits:
+          memory: 12G
+        reservations:
+          memory: 6G
+    restart: unless-stopped
+    networks:
+      - ai-network
+
+networks:
+  ai-network:
+    driver: bridge
+
+volumes:
+  pdf_api_data:
+  ollama_data:
+  sql_data:

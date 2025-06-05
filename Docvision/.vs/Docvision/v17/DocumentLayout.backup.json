@@ -1,0 +1,802 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528210742_intiald.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Docvision\\Migrations\\20250528210742_intiald.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528210236_intial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Docvision\\Migrations\\20250528210236_intial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|c:\\users\\snl\\downloads\\pfeneo-beta (1)\\pfeneo-beta\\docvision\\docvision\\models\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|solutionrelative:docvision\\models\\document.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528205245_inlmmmm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Docvision\\Migrations\\20250528205245_inlmmmm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|c:\\users\\snl\\downloads\\pfeneo-beta (1)\\pfeneo-beta\\docvision\\docvision\\controllers\\documentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|solutionrelative:docvision\\controllers\\documentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528204940_inlmm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Docvision\\Migrations\\20250528204940_inlmm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528204723_inlm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Docvision\\Migrations\\20250528204723_inlm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528203945_inl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Docvision\\Migrations\\20250528203945_inl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528203209_inl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Docvision\\Migrations\\20250528203209_inl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528201133_in.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Docvision\\Migrations\\20250528201133_in.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|c:\\users\\snl\\downloads\\pfeneo-beta (1)\\pfeneo-beta\\docvision\\docvision\\controllers\\descriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|solutionrelative:docvision\\controllers\\descriptioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528200108_inittkkttgfj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Docvision\\Migrations\\20250528200108_inittkkttgfj.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528195343_inittkkttgf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Docvision\\Migrations\\20250528195343_inittkkttgf.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528195322_inittkkttg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Docvision\\Migrations\\20250528195322_inittkkttg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528194620_inittkktt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Docvision\\Migrations\\20250528194620_inittkktt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528162234_inittkktt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Docvision\\Migrations\\20250528162234_inittkktt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528161809_inittkk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Docvision\\Migrations\\20250528161809_inittkk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528161747_inittk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Docvision\\Migrations\\20250528161747_inittk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|c:\\users\\snl\\downloads\\pfeneo-beta (1)\\pfeneo-beta\\docvision\\docvision\\repositories\\documentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|solutionrelative:docvision\\repositories\\documentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|c:\\users\\snl\\downloads\\pfeneo-beta (1)\\pfeneo-beta\\docvision\\docvision\\repositories\\idocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|solutionrelative:docvision\\repositories\\idocumentrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528160421_initt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Docvision\\Migrations\\20250528160421_initt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|c:\\users\\snl\\downloads\\pfeneo-beta (1)\\pfeneo-beta\\docvision\\docvision\\dtos\\documentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|solutionrelative:docvision\\dtos\\documentdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|c:\\users\\snl\\downloads\\pfeneo-beta (1)\\pfeneo-beta\\docvision\\docvision\\persistance\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|solutionrelative:docvision\\persistance\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528154630_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Docvision\\Migrations\\20250528154630_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528154011_docchhlklk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Docvision\\Migrations\\20250528154011_docchhlklk.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528153615_docchh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Docvision\\Migrations\\20250528153615_docchh.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528153412_docceeg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Docvision\\Migrations\\20250528153412_docceeg.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528153357_doccee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Docvision\\Migrations\\20250528153357_doccee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528151550_docc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Docvision\\Migrations\\20250528151550_docc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528151525_doc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Docvision\\Migrations\\20250528151525_doc.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|c:\\users\\snl\\downloads\\pfeneo-beta (1)\\pfeneo-beta\\docvision\\docvision\\controllers\\modelaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|solutionrelative:docvision\\controllers\\modelaicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|c:\\users\\snl\\downloads\\pfeneo-beta (1)\\pfeneo-beta\\docvision\\docvision\\models\\modelai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|solutionrelative:docvision\\models\\modelai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250523124250_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Docvision\\Migrations\\20250523124250_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|c:\\users\\snl\\downloads\\pfeneo-beta (1)\\pfeneo-beta\\docvision\\docvision\\controllers\\modelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|solutionrelative:docvision\\controllers\\modelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|c:\\users\\snl\\downloads\\pfeneo-beta (1)\\pfeneo-beta\\docvision\\docvision\\models\\description.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|solutionrelative:docvision\\models\\description.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|c:\\users\\snl\\downloads\\pfeneo-beta (1)\\pfeneo-beta\\docvision\\docvision\\models\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|solutionrelative:docvision\\models\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|c:\\users\\snl\\downloads\\pfeneo-beta (1)\\pfeneo-beta\\docvision\\docvision\\repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|solutionrelative:docvision\\repositories\\authrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|c:\\users\\snl\\downloads\\pfeneo-beta (1)\\pfeneo-beta\\docvision\\docvision\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|solutionrelative:docvision\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|c:\\users\\snl\\downloads\\pfeneo-beta (1)\\pfeneo-beta\\docvision\\docvision\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|solutionrelative:docvision\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|c:\\users\\snl\\downloads\\pfeneo-beta (1)\\pfeneo-beta\\docvision\\docvision\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|solutionrelative:docvision\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|c:\\users\\snl\\downloads\\pfeneo-beta (1)\\pfeneo-beta\\docvision\\docvision\\models\\modelconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|solutionrelative:docvision\\models\\modelconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|c:\\users\\snl\\downloads\\pfeneo-beta (1)\\pfeneo-beta\\docvision\\docvision\\models\\objectimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|solutionrelative:docvision\\models\\objectimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|c:\\users\\snl\\downloads\\pfeneo-beta (1)\\pfeneo-beta\\docvision\\docvision\\models\\descriptionobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|solutionrelative:docvision\\models\\descriptionobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|c:\\users\\snl\\downloads\\pfeneo-beta (1)\\pfeneo-beta\\docvision\\docvision\\controllers\\admindocumentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|solutionrelative:docvision\\controllers\\admindocumentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|c:\\users\\snl\\downloads\\pfeneo-beta (1)\\pfeneo-beta\\docvision\\docvision\\repositories\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|solutionrelative:docvision\\repositories\\iauthrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|c:\\users\\snl\\downloads\\pfeneo-beta (1)\\pfeneo-beta\\docvision\\docvision\\middleware\\requestresponseloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|solutionrelative:docvision\\middleware\\requestresponseloggingmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|c:\\users\\snl\\downloads\\pfeneo-beta (1)\\pfeneo-beta\\docvision\\docvision\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0710C739-E7DB-4C02-B33C-404176034417}|Docvision\\Docvision.csproj|solutionrelative:docvision\\weatherforecast.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20250528210742_intiald.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528210742_intiald.cs",
+              "RelativeDocumentMoniker": "Docvision\\Migrations\\20250528210742_intiald.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528210742_intiald.cs",
+              "RelativeToolTip": "Docvision\\Migrations\\20250528210742_intiald.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T21:07:42.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "20250528210236_intial.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528210236_intial.cs",
+              "RelativeDocumentMoniker": "Docvision\\Migrations\\20250528210236_intial.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528210236_intial.cs",
+              "RelativeToolTip": "Docvision\\Migrations\\20250528210236_intial.cs",
+              "ViewState": "AgIAALUAAAAAAAAAAAAQwMgAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T21:02:37.054Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20250528205245_inlmmmm.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528205245_inlmmmm.cs",
+              "RelativeDocumentMoniker": "Docvision\\Migrations\\20250528205245_inlmmmm.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528205245_inlmmmm.cs",
+              "RelativeToolTip": "Docvision\\Migrations\\20250528205245_inlmmmm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T20:52:45.716Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20250528204940_inlmm.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528204940_inlmm.cs",
+              "RelativeDocumentMoniker": "Docvision\\Migrations\\20250528204940_inlmm.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528204940_inlmm.cs",
+              "RelativeToolTip": "Docvision\\Migrations\\20250528204940_inlmm.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T20:49:41.163Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20250528204723_inlm.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528204723_inlm.cs",
+              "RelativeDocumentMoniker": "Docvision\\Migrations\\20250528204723_inlm.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528204723_inlm.cs",
+              "RelativeToolTip": "Docvision\\Migrations\\20250528204723_inlm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T20:47:23.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20250528203945_inl.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528203945_inl.cs",
+              "RelativeDocumentMoniker": "Docvision\\Migrations\\20250528203945_inl.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528203945_inl.cs",
+              "RelativeToolTip": "Docvision\\Migrations\\20250528203945_inl.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T20:39:45.798Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20250528203209_inl.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528203209_inl.cs",
+              "RelativeDocumentMoniker": "Docvision\\Migrations\\20250528203209_inl.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528203209_inl.cs",
+              "RelativeToolTip": "Docvision\\Migrations\\20250528203209_inl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T20:32:09.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Document.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Models\\Document.cs",
+              "RelativeDocumentMoniker": "Docvision\\Models\\Document.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Models\\Document.cs",
+              "RelativeToolTip": "Docvision\\Models\\Document.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA5wBEAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T10:32:05.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20250528201133_in.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528201133_in.cs",
+              "RelativeDocumentMoniker": "Docvision\\Migrations\\20250528201133_in.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528201133_in.cs",
+              "RelativeToolTip": "Docvision\\Migrations\\20250528201133_in.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T20:11:34.094Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DocumentController.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Controllers\\DocumentController.cs",
+              "RelativeDocumentMoniker": "Docvision\\Controllers\\DocumentController.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Controllers\\DocumentController.cs",
+              "RelativeToolTip": "Docvision\\Controllers\\DocumentController.cs",
+              "ViewState": "AgIAAH0AAAAAAAAAAAAtwIgBAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T18:38:07.461Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250528200108_inittkkttgfj.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528200108_inittkkttgfj.cs",
+              "RelativeDocumentMoniker": "Docvision\\Migrations\\20250528200108_inittkkttgfj.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528200108_inittkkttgfj.cs",
+              "RelativeToolTip": "Docvision\\Migrations\\20250528200108_inittkkttgfj.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T20:01:08.804Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20250528195343_inittkkttgf.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528195343_inittkkttgf.cs",
+              "RelativeDocumentMoniker": "Docvision\\Migrations\\20250528195343_inittkkttgf.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528195343_inittkkttgf.cs",
+              "RelativeToolTip": "Docvision\\Migrations\\20250528195343_inittkkttgf.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T19:53:43.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20250528195322_inittkkttg.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528195322_inittkkttg.cs",
+              "RelativeDocumentMoniker": "Docvision\\Migrations\\20250528195322_inittkkttg.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528195322_inittkkttg.cs",
+              "RelativeToolTip": "Docvision\\Migrations\\20250528195322_inittkkttg.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T19:53:22.576Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DescriptionController.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Controllers\\DescriptionController.cs",
+              "RelativeDocumentMoniker": "Docvision\\Controllers\\DescriptionController.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Controllers\\DescriptionController.cs",
+              "RelativeToolTip": "Docvision\\Controllers\\DescriptionController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAD4AAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T15:38:54.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20250528194620_inittkktt.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528194620_inittkktt.cs",
+              "RelativeDocumentMoniker": "Docvision\\Migrations\\20250528194620_inittkktt.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528194620_inittkktt.cs",
+              "RelativeToolTip": "Docvision\\Migrations\\20250528194620_inittkktt.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T19:46:20.493Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20250528162234_inittkktt.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528162234_inittkktt.cs",
+              "RelativeDocumentMoniker": "Docvision\\Migrations\\20250528162234_inittkktt.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528162234_inittkktt.cs",
+              "RelativeToolTip": "Docvision\\Migrations\\20250528162234_inittkktt.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T16:22:34.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20250528161809_inittkk.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528161809_inittkk.cs",
+              "RelativeDocumentMoniker": "Docvision\\Migrations\\20250528161809_inittkk.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528161809_inittkk.cs",
+              "RelativeToolTip": "Docvision\\Migrations\\20250528161809_inittkk.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T16:18:10.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20250528161747_inittk.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528161747_inittk.cs",
+              "RelativeDocumentMoniker": "Docvision\\Migrations\\20250528161747_inittk.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528161747_inittk.cs",
+              "RelativeToolTip": "Docvision\\Migrations\\20250528161747_inittk.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T16:17:47.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20250528160421_initt.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528160421_initt.cs",
+              "RelativeDocumentMoniker": "Docvision\\Migrations\\20250528160421_initt.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528160421_initt.cs",
+              "RelativeToolTip": "Docvision\\Migrations\\20250528160421_initt.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T16:04:22.019Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "DocumentDto.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Dtos\\DocumentDto.cs",
+              "RelativeDocumentMoniker": "Docvision\\Dtos\\DocumentDto.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Dtos\\DocumentDto.cs",
+              "RelativeToolTip": "Docvision\\Dtos\\DocumentDto.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAA3wBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T16:03:39.594Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IDocumentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Repositories\\IDocumentRepository.cs",
+              "RelativeDocumentMoniker": "Docvision\\Repositories\\IDocumentRepository.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Repositories\\IDocumentRepository.cs",
+              "RelativeToolTip": "Docvision\\Repositories\\IDocumentRepository.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAwwAsAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T23:39:23.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "DocumentRepository.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Repositories\\DocumentRepository.cs",
+              "RelativeDocumentMoniker": "Docvision\\Repositories\\DocumentRepository.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Repositories\\DocumentRepository.cs",
+              "RelativeToolTip": "Docvision\\Repositories\\DocumentRepository.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwDUAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T23:37:28.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Context.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Persistance\\Context.cs",
+              "RelativeDocumentMoniker": "Docvision\\Persistance\\Context.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Persistance\\Context.cs",
+              "RelativeToolTip": "Docvision\\Persistance\\Context.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAASwBwAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T15:43:34.368Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "20250528154630_init.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528154630_init.cs",
+              "RelativeDocumentMoniker": "Docvision\\Migrations\\20250528154630_init.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528154630_init.cs",
+              "RelativeToolTip": "Docvision\\Migrations\\20250528154630_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T15:46:31.014Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20250528154011_docchhlklk.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528154011_docchhlklk.cs",
+              "RelativeDocumentMoniker": "Docvision\\Migrations\\20250528154011_docchhlklk.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528154011_docchhlklk.cs",
+              "RelativeToolTip": "Docvision\\Migrations\\20250528154011_docchhlklk.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T15:40:11.984Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "20250528153615_docchh.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528153615_docchh.cs",
+              "RelativeDocumentMoniker": "Docvision\\Migrations\\20250528153615_docchh.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528153615_docchh.cs",
+              "RelativeToolTip": "Docvision\\Migrations\\20250528153615_docchh.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T15:36:15.484Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20250528153412_docceeg.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528153412_docceeg.cs",
+              "RelativeDocumentMoniker": "Docvision\\Migrations\\20250528153412_docceeg.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528153412_docceeg.cs",
+              "RelativeToolTip": "Docvision\\Migrations\\20250528153412_docceeg.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T15:34:12.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20250528153357_doccee.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528153357_doccee.cs",
+              "RelativeDocumentMoniker": "Docvision\\Migrations\\20250528153357_doccee.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528153357_doccee.cs",
+              "RelativeToolTip": "Docvision\\Migrations\\20250528153357_doccee.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T15:33:57.228Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20250528151550_docc.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528151550_docc.cs",
+              "RelativeDocumentMoniker": "Docvision\\Migrations\\20250528151550_docc.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528151550_docc.cs",
+              "RelativeToolTip": "Docvision\\Migrations\\20250528151550_docc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T15:15:51.065Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20250528151525_doc.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528151525_doc.cs",
+              "RelativeDocumentMoniker": "Docvision\\Migrations\\20250528151525_doc.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250528151525_doc.cs",
+              "RelativeToolTip": "Docvision\\Migrations\\20250528151525_doc.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-28T15:15:25.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "Description.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Models\\Description.cs",
+              "RelativeDocumentMoniker": "Docvision\\Models\\Description.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Models\\Description.cs",
+              "RelativeToolTip": "Docvision\\Models\\Description.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T22:37:44.19Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ModelAI.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Models\\ModelAI.cs",
+              "RelativeDocumentMoniker": "Docvision\\Models\\ModelAI.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Models\\ModelAI.cs",
+              "RelativeToolTip": "Docvision\\Models\\ModelAI.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T22:35:49.846Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "AuthRepository.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Repositories\\AuthRepository.cs",
+              "RelativeDocumentMoniker": "Docvision\\Repositories\\AuthRepository.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Repositories\\AuthRepository.cs",
+              "RelativeToolTip": "Docvision\\Repositories\\AuthRepository.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAowDAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:17:08.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\appsettings.json",
+              "RelativeDocumentMoniker": "Docvision\\appsettings.json",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\appsettings.json",
+              "RelativeToolTip": "Docvision\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-09T14:50:34.13Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ModelAIController.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Controllers\\ModelAIController.cs",
+              "RelativeDocumentMoniker": "Docvision\\Controllers\\ModelAIController.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Controllers\\ModelAIController.cs",
+              "RelativeToolTip": "Docvision\\Controllers\\ModelAIController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T22:41:20.415Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "20250523124250_init.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250523124250_init.cs",
+              "RelativeDocumentMoniker": "Docvision\\Migrations\\20250523124250_init.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Migrations\\20250523124250_init.cs",
+              "RelativeToolTip": "Docvision\\Migrations\\20250523124250_init.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-23T12:42:50.684Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "ModelController.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Controllers\\ModelController.cs",
+              "RelativeDocumentMoniker": "Docvision\\Controllers\\ModelController.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Controllers\\ModelController.cs",
+              "RelativeToolTip": "Docvision\\Controllers\\ModelController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAP8AAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T15:44:44.184Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "Image.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Models\\Image.cs",
+              "RelativeDocumentMoniker": "Docvision\\Models\\Image.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Models\\Image.cs",
+              "RelativeToolTip": "Docvision\\Models\\Image.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T16:09:44.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Docvision\\Services\\AuthService.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Services\\AuthService.cs",
+              "RelativeToolTip": "Docvision\\Services\\AuthService.cs",
+              "ViewState": "AgIAANcAAAAAAAAAAAAIwP0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:16:31.265Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Docvision\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Docvision\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAAGQAAAAAAAAAAAAmwIgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T21:17:17.391Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ModelConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Models\\ModelConfiguration.cs",
+              "RelativeDocumentMoniker": "Docvision\\Models\\ModelConfiguration.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Models\\ModelConfiguration.cs",
+              "RelativeToolTip": "Docvision\\Models\\ModelConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T15:45:09.287Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "ObjectImage.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Models\\ObjectImage.cs",
+              "RelativeDocumentMoniker": "Docvision\\Models\\ObjectImage.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Models\\ObjectImage.cs",
+              "RelativeToolTip": "Docvision\\Models\\ObjectImage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T15:40:02.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "DescriptionObject.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Models\\DescriptionObject.cs",
+              "RelativeDocumentMoniker": "Docvision\\Models\\DescriptionObject.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Models\\DescriptionObject.cs",
+              "RelativeToolTip": "Docvision\\Models\\DescriptionObject.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-10T15:40:00.402Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "AdminDocumentController.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Controllers\\AdminDocumentController.cs",
+              "RelativeDocumentMoniker": "Docvision\\Controllers\\AdminDocumentController.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Controllers\\AdminDocumentController.cs",
+              "RelativeToolTip": "Docvision\\Controllers\\AdminDocumentController.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAowEUAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T23:38:23.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "IAuthRepository.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Repositories\\IAuthRepository.cs",
+              "RelativeDocumentMoniker": "Docvision\\Repositories\\IAuthRepository.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Repositories\\IAuthRepository.cs",
+              "RelativeToolTip": "Docvision\\Repositories\\IAuthRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T23:37:27.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "RequestResponseLoggingMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Middleware\\RequestResponseLoggingMiddleware.cs",
+              "RelativeDocumentMoniker": "Docvision\\Middleware\\RequestResponseLoggingMiddleware.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\Middleware\\RequestResponseLoggingMiddleware.cs",
+              "RelativeToolTip": "Docvision\\Middleware\\RequestResponseLoggingMiddleware.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAuwCoAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T14:52:42.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "WeatherForecast.cs",
+              "DocumentMoniker": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\WeatherForecast.cs",
+              "RelativeDocumentMoniker": "Docvision\\WeatherForecast.cs",
+              "ToolTip": "C:\\Users\\snl\\Downloads\\PFENeo-beta (1)\\PFENeo-beta\\Docvision\\Docvision\\WeatherForecast.cs",
+              "RelativeToolTip": "Docvision\\WeatherForecast.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T14:50:38.562Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

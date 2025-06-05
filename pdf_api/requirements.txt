@@ -1,0 +1,17 @@
+fastapi
+uvicorn
+pymupdf
+requests
+python-dotenv
+cloudinary
+aiohttp
+deep-translator
+ultralytics
+pillow
+torch
+torchvision
+transformers
+nltk
+pydantic==2.9.0
+pydantic-settings==2.9.1
+httpx

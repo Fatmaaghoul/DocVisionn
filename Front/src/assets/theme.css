@@ -1,0 +1,252 @@
+:root {
+  /* Variables pour le thème clair */
+  --primary-color: #3d3aed;
+  --secondary-color: #2ecc71;
+  --background-color: #ffffff;
+  --secondary-background: #f8f9fa;
+  --text-color: #2c3e50;
+  --text-secondary: #7f8c8d;
+  --border-color: #e9ecef;
+  --card-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  --hover-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
+  
+  /* Couleurs d'état */
+  --success-color: #2ecc71;
+  --warning-color: #f1c40f;
+  --error-color: #e74c3c;
+  --info-color: #3498db;
+  
+  /* Couleurs de fond spécifiques */
+  --success-bg: #e8f5e9;
+  --warning-bg: #fff8e1;
+  --error-bg: #ffebee;
+  --info-bg: #e3f2fd;
+  
+  /* Couleurs de texte spécifiques */
+  --success-text: #2e7d32;
+  --warning-text: #ff8f00;
+  --error-text: #c62828;
+  --info-text: #1565c0;
+  
+  /* Couleurs de bordure spécifiques */
+  --success-border: #a5d6a7;
+  --warning-border: #ffe082;
+  --error-border: #ef9a9a;
+  --info-border: #90caf9;
+}
+
+/* Thème sombre */
+body.dark-theme {
+  --primary-color: #5c59f8;
+  --secondary-color: #2ecc71;
+  --background-color: #1a1a1a;
+  --secondary-background: #2d2d2d;
+  --text-color: #ecf0f1;
+  --text-secondary: #bdc3c7;
+  --border-color: #404040;
+  --card-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  --hover-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  
+  /* Couleurs d'état */
+  --success-color: #2ecc71;
+  --warning-color: #f1c40f;
+  --error-color: #e74c3c;
+  --info-color: #3498db;
+  
+  /* Couleurs de fond spécifiques */
+  --success-bg: #1b5e20;
+  --warning-bg: #ff6f00;
+  --error-bg: #b71c1c;
+  --info-bg: #0d47a1;
+  
+  /* Couleurs de texte spécifiques */
+  --success-text: #81c784;
+  --warning-text: #ffb74d;
+  --error-text: #ef9a9a;
+  --info-text: #64b5f6;
+  
+  /* Couleurs de bordure spécifiques */
+  --success-border: #2e7d32;
+  --warning-border: #f57c00;
+  --error-border: #c62828;
+  --info-border: #1565c0;
+}
+
+/* Styles globaux */
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Styles pour les cartes */
+.card, .settings-card {
+  background-color: var(--background-color);
+  border: 1px solid var(--border-color);
+  box-shadow: var(--card-shadow);
+}
+
+/* Styles pour les boutons */
+.btn {
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: var(--secondary-color);
+}
+
+/* Styles pour les inputs et selects */
+input, select, textarea {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+}
+
+/* Styles pour les liens */
+a {
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--secondary-color);
+}
+
+/* Styles pour les textes secondaires */
+.text-secondary {
+  color: var(--text-secondary) !important;
+}
+
+/* Styles pour les bordures */
+.border {
+  border-color: var(--border-color) !important;
+}
+
+/* Styles pour les tableaux */
+table {
+  background-color: var(--background-color);
+  color: var(--text-color);
+}
+
+th, td {
+  border-color: var(--border-color);
+}
+
+/* Styles pour les modales */
+.modal-content {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  border-color: var(--border-color);
+}
+
+/* Styles pour les tooltips */
+.tooltip {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+}
+
+/* Styles pour les dropdowns */
+.dropdown-menu {
+  background-color: var(--background-color);
+  border-color: var(--border-color);
+}
+
+.dropdown-item {
+  color: var(--text-color);
+}
+
+.dropdown-item:hover {
+  background-color: var(--secondary-background);
+  color: var(--primary-color);
+}
+
+/* Styles pour les états */
+.status-success {
+  background-color: var(--success-bg);
+  color: var(--success-text);
+  border-color: var(--success-border);
+}
+
+.status-warning {
+  background-color: var(--warning-bg);
+  color: var(--warning-text);
+  border-color: var(--warning-border);
+}
+
+.status-error {
+  background-color: var(--error-bg);
+  color: var(--error-text);
+  border-color: var(--error-border);
+}
+
+.status-info {
+  background-color: var(--info-bg);
+  color: var(--info-text);
+  border-color: var(--info-border);
+}
+
+/* Styles pour les badges */
+.badge-success {
+  background-color: var(--success-color);
+  color: white;
+}
+
+.badge-warning {
+  background-color: var(--warning-color);
+  color: white;
+}
+
+.badge-error {
+  background-color: var(--error-color);
+  color: white;
+}
+
+.badge-info {
+  background-color: var(--info-color);
+  color: white;
+}
+
+/* Styles pour les alertes */
+.alert-success {
+  background-color: var(--success-bg);
+  color: var(--success-text);
+  border-color: var(--success-border);
+}
+
+.alert-warning {
+  background-color: var(--warning-bg);
+  color: var(--warning-text);
+  border-color: var(--warning-border);
+}
+
+.alert-error {
+  background-color: var(--error-bg);
+  color: var(--error-text);
+  border-color: var(--error-border);
+}
+
+.alert-info {
+  background-color: var(--info-bg);
+  color: var(--info-text);
+  border-color: var(--info-border);
+}
+
+/* Styles pour les icônes */
+.icon-success {
+  color: var(--success-color);
+}
+
+.icon-warning {
+  color: var(--warning-color);
+}
+
+.icon-error {
+  color: var(--error-color);
+}
+
+.icon-info {
+  color: var(--info-color);
+} 

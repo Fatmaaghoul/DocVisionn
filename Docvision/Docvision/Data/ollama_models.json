@@ -1,0 +1,27 @@
+{
+  "model_names": [
+    "llava:7b",
+    "llava:13b",
+    "llava-v1.5-7b",
+    "llava-v1.5-13b",
+    "llava-v1.6-7b",
+    "llava-v1.6-13b",
+    "llava-v1.6-mistral",
+    "llava-phi3",
+    "llava-llama3",
+    "bakllava:1.8b",
+    "bakllava:7b",
+    "llava-med",
+    "llava-blip2",
+    "llava-vicuna-13b",
+    "llava-clip",
+    "blip:2.7b",
+    "blip2-opt-2.7b",
+    "blip2-flan-t5-xl",
+    "llava-llama2",
+    "llava-mixtral",
+    "llava:7b",
+    "gemma3:4b",
+    "llama3"
+  ]
+}

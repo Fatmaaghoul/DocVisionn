@@ -1,0 +1,20 @@
+# Ignorer les fichiers de compilation .NET
+bin/
+obj/
+
+# Ignorer les dépendances Node.js
+node_modules/
+
+ollama/models
+
+# Ignorer les fichiers d'environnement locaux
+.env
+.env.local
+
+# Ignorer les fichiers de compilation Vue.js
+dist/
+build/
+
+# Ignorer les fichiers IDE
+.vscode/
+.idea/
