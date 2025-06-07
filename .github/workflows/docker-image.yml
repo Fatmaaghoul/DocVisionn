@@ -2,7 +2,7 @@ name: Docker Image CI
 on:
   push:
     branches:
-      - master  # Exécuter le pipeline sur chaque push dans master
+      - master  # Exécuter le pipeline sur chaque push dans masterr
 
 jobs:
   docker-build-push:
