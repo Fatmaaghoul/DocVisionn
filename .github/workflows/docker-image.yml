@@ -30,6 +30,7 @@ jobs:
     - name: Build & Push Web API
       uses: docker/build-push-action@v5
       with:
+
         context: ./Docvision/Docvision
         push: true
         tags: ${{ env.IMAGE_OWNER }}/web-api:latest
