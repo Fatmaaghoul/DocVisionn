@@ -1,15 +1,10 @@
-FROM mcr.microsoft.com/dotnet/aspnet:8.0 AS base
-WORKDIR /app
-EXPOSE 80
-EXPOSE 443
-
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 # Copy the project file
-COPY ["Docvision/Docvision.csproj", "Docvision/"]
-RUN dotnet restore "Docvision/Docvision.csproj"
+COPY ["Docvision.csproj", "."]
+RUN dotnet restore "Docvision.csproj"
 COPY . .
-WORKDIR "/src/Docvision"
+WORKDIR "/src"
 RUN dotnet build "Docvision.csproj" -c Release -o /app/build
 
 FROM build AS publish
