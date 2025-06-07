@@ -2,13 +2,11 @@ version: '3.8'
 
 services:
   frontend:
-    build:
-      context: ./Front
-      dockerfile: Dockerfile
+    image: ghoulfatma/frontend:latest
     ports:
       - "8080:80"
     depends_on:
-      - web
+      - web-api
       - db
       - pdf-api
       - ollama
@@ -28,9 +26,7 @@ services:
 
 
   web:
-    build:
-      context: ./Docvision      
-      dockerfile: Docvision/Dockerfile
+    image: ghoulfatma/web-api:latest
     ports:
       - "5000:80"
     depends_on:
@@ -70,9 +66,8 @@ services:
 
   # Service PDF API
   pdf-api:
-    build: 
-      context: ./pdf_api
-      dockerfile: Dockerfile
+    image: ghoulfatma/pdf-api:latest
+
     ports:
       - "8000:8000"
     volumes:
@@ -95,7 +90,7 @@ services:
     networks:
       - ai-network
     healthcheck:
-      test: ["CMD", "curl", "-f", "http://pdf-api:8000/health && nvidia-smi"]
+      test: ["CMD", "curl", "-f", "http://pdf-api:8000/health"]
       interval: 30s
       timeout: 10s
       retries: 3
@@ -103,9 +98,7 @@ services:
 
   # Service Ollama
   ollama:
-    build:
-      context: ./ollama
-      dockerfile: Dockerfile
+    image: ghoulfatma/ollama:latest
     volumes:
       - ollama_data:/root/.ollama
     ports:
