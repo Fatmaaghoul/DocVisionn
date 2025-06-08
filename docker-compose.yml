@@ -42,7 +42,7 @@ services:
       - ASPNETCORE_URLS=http://+:80
       - SKIP_ADMIN_CREATION=false  # Ajouter cette variable pour ignorer la création de l'admin
 
-      # DB Connexion
+      # DB Connexionn
       - ConnectionStrings__docsdb=Server=db;Database=DocvisionDb3;User=sa;Password=Your_password123;TrustServerCertificate=True;
 
       # JWT config
