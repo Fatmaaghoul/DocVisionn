@@ -1,50 +1,89 @@
-name: Docker Image CI
+name: Docker CI/CD Pipeline
+
 on:
   push:
-    branches:
-      - master  # Exécuter le pipeline sur chaque push dans masterr
+    branches: [master]
+
+env:
+  IMAGE_OWNER: ghoulfatma
+  COMPOSE_FILE: docker-compose.yml
 
 jobs:
-  docker-build-push:
+  build-test-deploy:
     runs-on: ubuntu-latest
-    env:
-      IMAGE_OWNER: ghoulfatma
-
     steps:
-    - name: Checkout repository
-      uses: actions/checkout@v3
+      # --- Étapes existantes ---
+      - name: Checkout
+        uses: actions/checkout@v3
 
-    - name: Login to Docker Hub
-      uses: docker/login-action@v3
-      with:
-        username: ${{ secrets.DOCKERHUB_USERNAME }}
-        password: ${{ secrets.DOCKERHUB_TOKEN }}
+      - name: Login to Docker Hub
+        uses: docker/login-action@v3
+        with:
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-    - name: Build & Push Frontend
-      uses: docker/build-push-action@v5
-      with:
-        context: ./Front
-        push: true
-        tags: ${{ env.IMAGE_OWNER }}/frontend:latest
+      # Build & Push Frontend
+      - name: Build Frontend
+        uses: docker/build-push-action@v5
+        with:
+          context: ./Front
+          push: true
+          tags: ${{ env.IMAGE_OWNER }}/frontend:latest
 
-    - name: Build & Push Web API
-      uses: docker/build-push-action@v5
-      with:
+      # Build & Push Web API
+      - name: Build Web API
+        uses: docker/build-push-action@v5
+        with:
+          context: ./Docvision/Docvision
+          push: true
+          tags: ${{ env.IMAGE_OWNER }}/web-api:latest
 
-        context: ./Docvision/Docvision
-        push: true
-        tags: ${{ env.IMAGE_OWNER }}/web-api:latest
+      # Build & Push PDF API
+      - name: Build PDF API
+        uses: docker/build-push-action@v5
+        with:
+          context: ./pdf_api
+          push: true
+          tags: ${{ env.IMAGE_OWNER }}/pdf-api:latest
 
-    - name: Build & Push PDF API
-      uses: docker/build-push-action@v5
-      with:
-        context: ./pdf_api
-        push: true
-        tags: ${{ env.IMAGE_OWNER }}/pdf-api:latest
+      # Build & Push Ollama
+      - name: Build Ollama
+        uses: docker/build-push-action@v5
+        with:
+          context: ./ollama
+          push: true
+          tags: ${{ env.IMAGE_OWNER }}/ollama:latest
 
-    - name: Build & Push Ollama
-      uses: docker/build-push-action@v5
-      with:
-        context: ./ollama
-        push: true
-        tags: ${{ env.IMAGE_OWNER }}/ollama:latest
+      # --- NOUVEAU : Tests automatisés ---
+      - name: Run Frontend Tests
+        run: |
+          docker build -t frontend-test -f ./Front/Dockerfile.test ./Front
+          docker run --rm frontend-test
+
+      - name: Run Web API Tests
+        run: |
+          docker build -t webapi-test -f ./Docvision/Docvision/Dockerfile.test ./Docvision/Docvision
+          docker run --rm webapi-test
+
+      - name: Run PDF API Tests
+        run: |
+          docker build -t pdfapi-test -f ./pdf_api/Dockerfile.test ./pdf_api
+          docker run --rm pdfapi-test
+
+      # --- NOUVEAU : Déploiement SSH ---
+      - name: Deploy to Production
+        if: github.ref == 'refs/heads/master'
+        uses: appleboy/ssh-action@v1.0.7
+        with:
+          host: ${{ secrets.SERVER_IP }}
+          username: ${{ secrets.SERVER_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            cd /chemin/vers/votre/projet
+            echo "${{ secrets.DOCKERHUB_TOKEN }}" | docker login -u ${{ secrets.DOCKERHUB_USERNAME }} --password-stdin
+            docker-compose pull
+            docker-compose up -d --force-recreate
+            docker system prune -af
+            echo "🔄 Redémarrage des services..."
+            docker-compose restart
+            echo "✅ Déploiement terminé avec succès"
