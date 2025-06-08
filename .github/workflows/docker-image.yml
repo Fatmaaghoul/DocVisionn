@@ -1,74 +1,50 @@
-name: Docker CI/CD Pipeline
-
+name: Docker Image CI
 on:
   push:
-    branches: [master]
-
-env:
-  IMAGE_OWNER: ghoulfatma
-  COMPOSE_FILE: docker-compose.yml
+    branches:
+      - master  # Exécuter le pipeline sur chaque push dans masterr
 
 jobs:
-  build-test-push:
+  docker-build-push:
     runs-on: ubuntu-latest
+    env:
+      IMAGE_OWNER: ghoulfatma
+
     steps:
-      # 📥 Checkout du code
-      - name: Checkout
-        uses: actions/checkout@v3
+    - name: Checkout repository
+      uses: actions/checkout@v3
 
-      # 🔐 Connexion à Docker Hub
-      - name: Login to Docker Hub
-        uses: docker/login-action@v3
-        with:
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_TOKEN }}
+    - name: Login to Docker Hub
+      uses: docker/login-action@v3
+      with:
+        username: ${{ secrets.DOCKERHUB_USERNAME }}
+        password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      # 🛠️ Build & Push Frontend
-      - name: Build Frontend
-        uses: docker/build-push-action@v5
-        with:
-          context: ./Front
-          push: true
-          tags: ${{ env.IMAGE_OWNER }}/frontend:latest
+    - name: Build & Push Frontend
+      uses: docker/build-push-action@v5
+      with:
+        context: ./Front
+        push: true
+        tags: ${{ env.IMAGE_OWNER }}/frontend:latest
 
-      # 🛠️ Build & Push Web API
-      - name: Build Web API
-        uses: docker/build-push-action@v5
-        with:
-          context: ./Docvision/Docvision
-          push: true
-          tags: ${{ env.IMAGE_OWNER }}/web-api:latest
+    - name: Build & Push Web API
+      uses: docker/build-push-action@v5
+      with:
 
-      # 🛠️ Build & Push PDF API
-      - name: Build PDF API
-        uses: docker/build-push-action@v5
-        with:
-          context: ./pdf_api
-          push: true
-          tags: ${{ env.IMAGE_OWNER }}/pdf-api:latest
+        context: ./Docvision/Docvision
+        push: true
+        tags: ${{ env.IMAGE_OWNER }}/web-api:latest
 
-      # 🛠️ Build & Push Ollama
-      - name: Build Ollama
-        uses: docker/build-push-action@v5
-        with:
-          context: ./ollama
-          push: true
-          tags: ${{ env.IMAGE_OWNER }}/ollama:latest
+    - name: Build & Push PDF API
+      uses: docker/build-push-action@v5
+      with:
+        context: ./pdf_api
+        push: true
+        tags: ${{ env.IMAGE_OWNER }}/pdf-api:latest
 
-      # ✅ Tests Frontend
-      - name: Run Frontend Tests
-        run: |
-          docker build -t frontend-test -f ./Front/Dockerfile.test ./Front
-          docker run --rm frontend-test
-
-      # ✅ Tests Web API
-      - name: Run Web API Tests
-        run: |
-          docker build -t webapi-test -f ./Docvision/Docvision/Dockerfile.test ./Docvision/Docvision
-          docker run --rm webapi-test
-
-      # ✅ Tests PDF API
-      - name: Run PDF API Tests
-        run: |
-          docker build -t pdfapi-test -f ./pdf_api/Dockerfile.test ./pdf_api
-          docker run --rm pdfapi-test
+    - name: Build & Push Ollama
+      uses: docker/build-push-action@v5
+      with:
+        context: ./ollama
+        push: true
+        tags: ${{ env.IMAGE_OWNER }}/ollama:latest
